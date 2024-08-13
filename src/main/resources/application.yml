@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: ACCOUNTS-SERVICE
+#  flyway:
+#    enabled: true
+#    url: r2dbc:postgresql://localhost:5432/postgres
+#    user: postgres
+#    password: root
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
